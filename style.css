@@ -1,0 +1,73 @@
+/* Quick paste tools
+* { border: 1px solid red}
+
+*/
+
+/* Leftovers from original frontend mentor-provided code 
+<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    margin-top: 10%;
+    background-color: #d9e3fa;
+}
+
+/* General typography */
+body {
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+/* Main elements */
+#main-container {
+    width: 20.4rem;
+    border-radius: 5%;
+    margin: auto auto 0 auto;
+
+    background-color: white;
+}
+
+#qr-code {
+    height: 18.4rem;
+    border-radius: 10%;
+    margin: 1rem;
+}
+
+#txt {
+    text-align: center;
+}
+
+#hero-txt {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 0rem 1.8rem;
+}
+
+#description-txt {
+    padding-bottom: 2rem;
+    margin: 1rem 2.8rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #96a0ab;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
